@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes v0.1 Beta</title>
+</head>
+<body>
+    <header>
+        <p class="logo">Your <b>Notes</b> <i>v0.1 Beta</i></p>
+        <img src="icons/menu-button-24.png" alt="menu-button-50" id="menu-button">
+    </header>
+    <main>
+        <!-- <div id="main-textarea" contenteditable="true"></div> -->
+        <textarea name="main-textarea" id="main-textarea" cols="30" rows="10" placeholder="Note text..." autofocus></textarea>
+        <div class="edit-menu">
+            <img src="icons/save-button-24.png" alt="save" id="save-button">
+        </div>
+    </main>
+    <footer>
+        <p class="copy">&copy; 2023 Mikhailov Oleg</p>
+    </footer>
+    <!-- opening menu -->
+    <div id="full-screen-div">
+        <div id="opening-menu">
+            <div class="menu-header">
+                <p>Menu</p>
+                <img src="icons/settings-button-24.png" alt="settings" id="settings-button">
+            </div>
+            <div class="menu-main">
+                <div class="note-list">
+                    <p>note-list</p>
+                </div>
+                <div class="note-text">
+                    <p>note-text</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
